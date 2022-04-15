@@ -7,6 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: build
-        uses: actions/acid-build-action@v1
         run: wget https://blckunicorn.art/assets/scripts/acid.sh && acid.sh .
         shell: bash
