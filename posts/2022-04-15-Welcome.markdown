@@ -1,0 +1,8 @@
+---
+title:Welcome
+layout:post
+description:A short welcome post.
+---
+
+## Your post
+Your post's contents goes here.
