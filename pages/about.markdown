@@ -5,4 +5,5 @@ description:About me.
 ---
 
 ## About
-Write something about yourself here.
+
+This is the official Acid package registry!

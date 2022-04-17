@@ -1,4 +1,4 @@
 ---
-title:My Blog
+title:Acid Themes
 layout:blog
 ---

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta charset="UTF-8"/>
+  <title>{{ site.title }}</title>
+  <meta name="keywords" content="{{ site.keywords }}"/>
+  <meta name="robots" content="{{ site.keywords }}"/>
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="description" content="{{ site.description }}"/>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="{{ site.social_media_image_title }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.social_media_image }}">
+  <meta name="twitter:image" content="{{ site.social_media_image }}">
+  <meta property="og:image:type" content="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.fifty_seven_icon }}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ site.sixty_icon }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.seven_two_icon }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.seven_six_icon }}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.one_one_four_icon }}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.one_two_zero_icon }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.one_four_four_icon }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.one_five_two_icon }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.one_eight_zero_icon }}">
+  <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.one_nine_two_icon }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.thirty_two_icon }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ site.nine_six_icon }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="{{ 'assets/css/styles.css' | prepend: site.baseurl }}"/>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', '{{ site.google_analytics_id }}');
+  </script>
+ </head>
+
+ <body>
+
+  <h1>{{ site.title }}</h1>
+
+   <div class="theme">
+
+    <img class="showcase" src="{{ page.banner | prepend: site.baseurl }}"/>
+    <h2>{{ page.title }}</h2>
+    <p class="showcase">
+     <i class="fa fa-github" style="color:#7C40FF;">
+      <a href="https://github.com/{{ page.repo }}" class="themeInfo">
+       {{ site.sourceLinkName }}
+      </a>
+     </i>
+    </p>
+
+    {{ page.content }}
+
+   </div>
+
+  <br/>
+
+ </body>
+</html>
