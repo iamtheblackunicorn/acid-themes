@@ -70,3 +70,8 @@ If you've been using [***Acid***](https://github.com/iamtheblackunicorn/acid) an
 - 5.) Test that this site builds by running `acid-rs -b .` in the root of this Acid site and subsequently, check everything looks how it is supposed to, by running `acid-rs -s .`.
 - 6.) Commit and push your changes.
 - 7.) File a Pull Request!
+
+## NOTE :scroll:
+
+- *Acid Themes :pill: :fire: :pick:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- Licensed under the MIT license.
