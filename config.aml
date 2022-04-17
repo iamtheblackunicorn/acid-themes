@@ -14,7 +14,7 @@
 'google_analytics_id' => 'WHATEVER'
 'sixty_icon' => 'https://blckunicorn.art/acid/assets/favicons/apple-icon-60x60.png'
 'assets_path' => 'assets'
-'baseurl' => '/'
+'baseurl' => '/acid-themes/'
 'one_four_four_icon' => 'https://blckunicorn.art/acid/assets/favicons/apple-icon-144x144.png'
 'seven_two_icon' => 'https://blckunicorn.art/acid/assets/favicons/apple-icon-72x72.png'
 'seven_six_icon' => 'https://blckunicorn.art/acid/assets/favicons/apple-icon-76x76.png'
