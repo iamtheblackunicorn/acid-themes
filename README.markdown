@@ -1,4 +1,6 @@
-# ACID THEME REGISTRY
+# ACID THEME REGISTRY :pill: :fire: :pick:
+
+***A platform for Acid theme developers.*** :pill: :fire: :pick:
 
 ## About :books:
 
